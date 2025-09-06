@@ -8,7 +8,7 @@ export function Perfil() {
         source={perfil}
         style ={{
           resizeMode: 'contain',
-          height: 180}}
+          height: 140}}
         />
             
 
