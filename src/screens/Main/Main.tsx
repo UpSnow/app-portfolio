@@ -3,11 +3,13 @@ import { View, Text, Image, TouchableOpacity, Linking, ScrollView } from 'react-
 import { styles } from './MainStyles';
 import { Perfil } from '../../components/Perfil';
 
+
 export function Main({ navigation }: any) {
   const links = [
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/seu-usuario' },
-    { label: 'GitHub', url: 'https://github.com/seu-usuario' },
-    { label: 'Email', url: 'mailto:seuemail@exemplo.com' },
+    { label: 'LinkedIn', url: 'https://linkedin.com/in/arthur-cezar-28b45b266' },
+    { label: 'GitHub', url: 'https://github.com/UpSnow' },
+    { label: 'Email', url: 'mailto:Arthurcel14@gmail.com' },
+    { label: 'Instagram', url: 'https://www.instagram.com/arthurjcezar/' },
   ];
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -22,8 +24,8 @@ export function Main({ navigation }: any) {
         </TouchableOpacity>
       ))}
 
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Habilidades')}>
-        <Text style={styles.buttonText}>Ver Habilidades</Text>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Skills')}>
+        <Text style={styles.buttonText}>Ver Skills</Text>
       </TouchableOpacity>
     </ScrollView>
   );

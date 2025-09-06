@@ -1,5 +1,5 @@
 import {createDrawerNavigator} from '@react-navigation/drawer'
-import { Skill } from '../screens/Skill/Skill';
+import { Skill } from '../screens/Skill/Skill'
 import { Main } from '../screens/Main/Main';
 
 
